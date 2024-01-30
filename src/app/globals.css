@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #000000;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #0f0a32;
+}
+
+.center-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-vertical-root {
+  display: flex;
+  align-items: center;
+}
+
+.space-between-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eclipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* default 1 line */
+  -webkit-box-orient: vertical;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  display: flex;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+.checkmark {
+  stroke-dashoffset: -100;
+  stroke-dasharray: 1000;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

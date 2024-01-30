@@ -1,0 +1,73 @@
+/* .ConnectModal_content__gz8z92 {
+  width: 360px !important;
+  max-width: 360px !important;
+}
+
+.ConnectModal_viewContainer__gz8z94 {
+  display: none !important;
+}
+
+.ConnectModal_walletListContainer__gz8z99 {
+  flex: 1 !important;
+}
+
+.ConnectModal_walletListContent__gz8z98 {
+  width: 100% !important;
+  background: #ffffff !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.ConnectModal_whatIsAWalletButton__gz8z93 {
+  display: none !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+@media screen and (max-width: 768px) {
+  .ConnectModal_content__gz8z92 {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+} */
+
+.AccountDropdownMenu_connectedAccount__div2ql0 {
+  height: 32px !important;
+  border-radius: 48px !important;
+  background: rgb(196 201 211 / 0.2) !important;
+  font-family: "Inter", sans-serif !important;
+}
+.AccountDropdownMenu_connectedAccount__div2ql0 > div {
+  font-weight: 400 !important;
+  color: rgb(229 231 235) !important;
+  font-family: inherit !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+/* .ConnectModal_walletListContent__gz8z98 > h2 {
+  color: #374151 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.WalletListItem_container__1dqqtqs0 > button {
+  height: 56px !important;
+  box-shadow: none !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  background: #f9fafb !important;
+  border: 1px solid #e5e7eb !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.WalletListItem_container__1dqqtqs0 > button > img {
+  border-radius: 1000px !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.WalletListItem_container__1dqqtqs0 > button > div {
+  font-size: 16px !important;
+  color: #111827 !important;
+  font-weight: 600 !important;
+  font-family: "Inter", sans-serif !important;
+} */
