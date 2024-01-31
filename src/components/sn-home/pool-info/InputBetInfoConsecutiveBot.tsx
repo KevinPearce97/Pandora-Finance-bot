@@ -66,7 +66,7 @@ const InputBetInfoConsecutiveBot = () => {
   useEffect(() => {
     if (!isStartRunningBot || !betAmount || !numberOfResult) return;
 
-    if (timeRemain === 60) {
+    if (timeRemain === 30) {
       console.log("run consecutive bot");
       handleGetResult();
     }
